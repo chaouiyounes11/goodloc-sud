@@ -97,6 +97,7 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 12;
+  padding: 0px;
 }
 
 .scrolled {
@@ -119,6 +120,11 @@ textarea {
   letter-spacing: 2px;
 }
 
+.navbar-nav {
+  background: rgba(255, 255, 255, 0.8);
+width: 100% !important;
+}
+
 .navbar-light .navbar-brand:hover {
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -132,6 +138,7 @@ textarea {
 .navbar-toggler {
   border: none;
 }
+
 
 button {
   display: flex;
@@ -233,6 +240,9 @@ header h1 {
   color: green;
 }
 
+.fa-unlock-alt {
+  color: #ede91a;
+}
 .businessCard p {
   text-align: left;
   font-size: 12px;
@@ -259,6 +269,9 @@ header h1 {
   width: 100%;
 }
 
+#rules #conditions p {
+  font-size: 13px;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
