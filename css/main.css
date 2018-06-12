@@ -91,7 +91,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+#englishFlag {
+  width: 30px;
+}
 .bg-light {
   background-color: transparent !important;
   position: fixed;
@@ -332,13 +334,11 @@ footer #contact {
   display: flex;
   justify-content: space-around;
 padding: 3% 0%;
-background-color: #1b1d1f;
   flex-wrap: wrap;
-  color: white;
 }
 
 footer #contact a {
-  color: white;
+  padding-top: 8px;
 }
 
 footer #legaleMention {
