@@ -211,9 +211,37 @@ header h1 {
   align-items: center;
 }
 
+.infosAboutCars {
+  padding-left: 11%;
+  margin-bottom: 4%;
+}
+
+.fa-burn {
+  color: #4F6CC3;
+}
+
+.fa-door-open {
+  color: purple;
+
+}
+
+.fa-hand-paper {
+  color:#F74E53;
+}
+
+.fa-smile {
+  color: green;
+}
+
+.businessCard p {
+  text-align: left;
+  font-size: 12px;
+}
+
 .btn-primary {
   margin-bottom: 2%;
 }
+
 .card-title {
   text-align: center;
   margin-top: 1%;

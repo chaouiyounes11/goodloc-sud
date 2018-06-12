@@ -25,7 +25,7 @@
 
   <!-- Add your site or application content here -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light scrolled">
+  <nav class="navbar navbar-expand-lg navbar-light scrolled bg-light">
   <a class="navbar-brand" href="#"><span style="color:black;">G</span><span style="color: #4F6CC3;">OO</span><span style="color: #284990;">D</span> <span style="color:#F74E53;">L</span><span style="color: #4F6CC3">O</span><span style="color: #284990;">C</span> SUD </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="spanMenu"></span>
@@ -34,6 +34,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="js-scrollTo nav-link" href="#presentation">Présentation<span class="sr-only">(current)</span></a>
+      </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Véhicules<span class="sr-only">(current)</span></a>
       </li>
@@ -100,12 +103,15 @@ uniquement sur réservation.</p>
       <span class="sr-only">Next</span>
     </a>
   </div>
-    <h5 class="card-title">Peugeot - 308</h5>
-    <p class="card-text">85 € jours</p>
-    <p class="card-text">Essence</p>
-    <p class="card-text">5 portes</p>
-    <p class="card-text">Boîte manuel</p>
-    <p class="card-text">GPS + Climatisation</p>
+    <h5 class="card-title">Peugeot 308</h5>
+    <aside class="infosAboutCars">
+
+    <p class="card-text"><i class="fal fa-hand-holding-usd"></i> : 85 € jours</p>
+    <p class="card-text"><i class="fal fa-burn"></i> : Essence</p>
+    <p class="card-text"><i class="fal fa-door-open"></i> : 5 portes</p>
+    <p class="card-text"><i class="fal fa-hand-paper"></i> : Boîte manuel</p>
+    <p class="card-text"><i class="fal fa-smile"></i> : GPS + Climatisation</p>
+    </aside>
 
 
 
@@ -138,8 +144,18 @@ uniquement sur réservation.</p>
     <span class="sr-only">Next</span>
   </a>
 </div>
-  <h5 class="card-title">Card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <h5 class="card-title">Peugeot 308</h5>
+  <aside class="infosAboutCars">
+
+  <p class="card-text"><i class="fal fa-hand-holding-usd"></i> : 85 € jours</p>
+  <p class="card-text"><i class="fal fa-burn"></i> : Essence</p>
+  <p class="card-text"><i class="fal fa-door-open"></i> : 5 portes</p>
+  <p class="card-text"><i class="fal fa-hand-paper"></i> : Boîte manuel</p>
+  <p class="card-text"><i class="fal fa-smile"></i> : GPS + Climatisation</p>
+  </aside>
+
+
+
   <a href="#" class="btn btn-primary">Go somewhere</a>
 </div>
 </div>
@@ -169,13 +185,24 @@ uniquement sur réservation.</p>
     <span class="sr-only">Next</span>
   </a>
 </div>
-  <h5 class="card-title">Card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <h5 class="card-title">Peugeot 308</h5>
+  <aside class="infosAboutCars">
+
+  <p class="card-text"><i class="fal fa-hand-holding-usd"></i> : 85 € jours</p>
+  <p class="card-text"><i class="fal fa-burn"></i> : Essence</p>
+  <p class="card-text"><i class="fal fa-door-open"></i> : 5 portes</p>
+  <p class="card-text"><i class="fal fa-hand-paper"></i> : Boîte manuel</p>
+  <p class="card-text"><i class="fal fa-smile"></i> : GPS + Climatisation</p>
+  </aside>
+
+
+
   <a href="#" class="btn btn-primary">Go somewhere</a>
 </div>
 </div>
 
 </div>
+
 
 <div class="businessCard">
 
@@ -200,8 +227,18 @@ uniquement sur réservation.</p>
     <span class="sr-only">Next</span>
   </a>
 </div>
-  <h5 class="card-title">Card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <h5 class="card-title">Peugeot 308</h5>
+  <aside class="infosAboutCars">
+
+  <p class="card-text"><i class="fal fa-hand-holding-usd"></i> : 85 € jours</p>
+  <p class="card-text"><i class="fal fa-burn"></i> : Essence</p>
+  <p class="card-text"><i class="fal fa-door-open"></i> : 5 portes</p>
+  <p class="card-text"><i class="fal fa-hand-paper"></i> : Boîte manuel</p>
+  <p class="card-text"><i class="fal fa-smile"></i> : GPS + Climatisation</p>
+  </aside>
+
+
+
   <a href="#" class="btn btn-primary">Go somewhere</a>
 </div>
 </div>
@@ -249,11 +286,16 @@ uniquement sur réservation.</p>
   </article>
 
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+
+
+<script src="js/main.js"></script>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
