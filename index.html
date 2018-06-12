@@ -117,7 +117,7 @@ uniquement sur réservation.</p>
 
 
 
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Je réserve</a>
   </div>
 </div>
 
@@ -158,7 +158,7 @@ uniquement sur réservation.</p>
 
 
 
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <a href="#" class="btn btn-primary">Je réserve</a>
 </div>
 </div>
 
@@ -199,7 +199,7 @@ uniquement sur réservation.</p>
 
 
 
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <a href="#" class="btn btn-primary">Je réserve</a>
 </div>
 </div>
 
@@ -241,7 +241,7 @@ uniquement sur réservation.</p>
 
 
 
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <a href="#" class="btn btn-primary">Je réserve</a>
 </div>
 </div>
 
@@ -267,23 +267,20 @@ uniquement sur réservation.</p>
 
 </section>
 
-<footer>
+ <footer>
 
   <aside class="menuTitles">
     <h2>Contact</h2>
     <hr>
   </aside>
 
-  <article id="articleLogo">
-    <figure>
-      <img src="img/goodloc-logo.png" alt="logo GoodLoc Sud">
-    </figure>
-  </article>
 
   <article class="">
-    <h3>Good Loc - Sud</h3>
-    <a href="tel:+33102030405"> 06 12 34 56 78 </a>
-    <p>80 rue de la Garonne <br>83600 Fréjus</p>
+    <h3>Nous trouver.</h3>
+    <div id="map">
+</div>
+<p> <i class="fal fa-map-marker"></i> : 80 rue de la Garonne, 83600 Fréjus</p>
+    <p> <i class="fal fa-mobile"></i><a href="tel:+33102030405"> : 06 12 34 56 78 </a></p>
     <p><i class="fab fa-snapchat-ghost" style="color: #FFFC00;"></i>: snapchat</p>
     <p><i class="fab fa-facebook-f" style="color: #3C5A99;"></i>: facebook</p>
   </article>
@@ -299,6 +296,9 @@ uniquement sur réservation.</p>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8xuSZt4KwckDESgFDnZSIbKivPk2yDfo&callback=initMap">
+  </script>
+
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
