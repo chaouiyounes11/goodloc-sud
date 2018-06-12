@@ -201,6 +201,10 @@ h3 {
   flex-wrap: wrap;
 }
 
+.carousel-item img {
+  height: 200px;
+}
+
 .menuTitles {
   width: 100%;
   margin-bottom: 3%;
@@ -241,7 +245,7 @@ h3 {
 
 }
 
-.fa-hand-paper {
+.fa-hand-paper, .fa-caret-circle-up {
   color:#F74E53;
 }
 
@@ -324,6 +328,33 @@ footer #articleLogo {
   justify-content: center;
 }
 
+footer #contact {
+  display: flex;
+  justify-content: space-around;
+padding: 3% 0%;
+background-color: #1b1d1f;
+  flex-wrap: wrap;
+  color: white;
+}
+
+footer #contact a {
+  color: white;
+}
+
+footer #legaleMention {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+footer #contact p {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+text-align: center;
+}
 footer article figure {
   margin: 0px;
   width: 50%;
